@@ -8,9 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Apartamento {
-    private int idAp;
-    private Propietario idProp;
-    private int numPortas;
-    private int qtdPortas;
+    private int idAp, numPortas, qtdPortas;
+    private Propietario propietario;
     private String tipo;
 }
